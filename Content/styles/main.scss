@@ -1,0 +1,36 @@
+@import 'variables.scss';
+
+body {
+    header{
+        height: $navbarHeight;
+        
+        nav.navbar{
+            .navbar-brand{
+                height: $navbarHeight;
+                img{
+                    max-height: 100%;
+                    padding: 10px;
+                }
+            }
+        }        
+
+        >.container, .container-fluid{
+            div.row{
+                >div {
+                    background-color: cornflowerblue;
+                    min-height: 80px;
+                    border: solid 1px white;
+                }
+            }
+        }
+    }
+}
+
+#footer{
+    background: coral;
+    text-align: center;
+    a{
+        text-decoration-style: none;
+    }
+}
+
